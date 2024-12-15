@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(135,206,235)
+}
+
+/* #fst{
+	background-color:black;
+	color:white;
+} */
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:last-child{
+	color:red;
+}
+
+li{
+	width:50%;
+	padding:10px;
+}
+
+li:nth-child(2){
+	background-color:gray
+}
+
+li:nth-child(4){
+	background-color:gray
+}
+
+li:first-child{
+	background-color:white;
+	font-size:22px;
+}
+
+li:last-child{
+	background-color:white;
+	font-size:22px;
+}
+
+li:nth-child(3)
+{
+	background-color:pink;
+}
